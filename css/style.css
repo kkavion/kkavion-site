@@ -982,6 +982,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 2;
      transition: all ease-in-out 0.5s;
      margin-bottom: 30px;
+     border: 1px solid #c0c0c0;
 }
  .single-travel .travel-number {
      float: left;
@@ -1000,7 +1001,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-travel .travel-content p {
      margin: 0;
-     width: 90%;
      line-height: 24px;
 }
  .single-travel:hover {

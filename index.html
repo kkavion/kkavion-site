@@ -7,7 +7,7 @@
 	<meta name="description" content="A KHW website">
 	<meta name="keywords" content="Tour, Travel">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>KKavion Marketing Enterprise LLP</title>
+	<title>Home</title>
 	<!-- Google Fonts Includes -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<!-- Favi icon -->
@@ -46,7 +46,13 @@
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 	<!-- custom css -->
 	<link rel="stylesheet" href="css/custom.css">
+	<!-- jquery confirm css-->
+	<link rel="stylesheet" href="css/jquery-confirm.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.1.95/css/materialdesignicons.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
@@ -80,6 +86,9 @@
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
 	</div>
+	<div id="dialog">
+
+	</div>
 	<header>
 		<!-- header-bottom area start here -->
 		<div id="navbar">
@@ -100,24 +109,12 @@
 								<ul class="main-menu text-right">
 									<li class="active">
 										<a href="index.html" onselectstart="return false">
+											Home
+										</a>
+									</li>
+									<li>
+										<a href="about-us.html" onselectstart="return false">
 											About Us
-										</a>
-										<ul class="dropdown">
-											<li>
-												<a href="values.html" onselectstart="return false">
-													Values
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="services.html" onselectstart="return false">
-											Services
-										</a>
-									</li>
-									<li>
-										<a href="management.html" onselectstart="return false">
-											Management
 										</a>
 									</li>
 									<li>
@@ -142,244 +139,539 @@
 	</header>
 	<!-- header area end here -->
 
-	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/about/ban.jpg');">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<div class="bredcrums-content">
-							<h2>About Us</h2>
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="index.html">ABOUT US</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section><!-- blog breadcrumb version one end here -->
 
-	<!-- popular destination strat -->
-	<section class="section-paddings single-package-area" style="padding:25px 5px 5px 5px;">
-		<div class="container">
-			<div class="col-md-12 col-sm-12">
-				<div class="single-package-details">
-					<div class="section-title" style="text-align:center; margin-bottom:0px;">
-						<h2>About Us</h2>
-						<p>KKavion Enterprise’s goal is to create an eco-system comprising individuals
-							and businesses to leverage the economies of scale and offer the very best to its
-							patrons in diverse domains such as hospitality, housing, lifestyle, education
-							and talent management.
-						</p>
-					</div>
-				</div><!-- tab menu strat -->
-				<!-- tab content start -->
+	<!-- slider area start here -->
+	<section class="slider-area-2 slider-area-3" style="overflow: hidden;">
+		<div class="rev_slider_wrapper">
+			<div id="rev_slider_2" class="rev_slider" style="display:none">
+				<!-- BEGIN SLIDES LIST -->
+				<ul>
+					<!-- first slider -->
+					<li data-transition="random-premium" data-title="Slide Title" data-param1="Additional Text"
+						data-thumb="images/slider/slider-back-03.jpg">
+						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+						<img src="images/home/banner/1.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+							data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+							data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500"
+							data-bgparallax="10" class="rev-slidebg" data-no-retina>
+						<div class="image-overlay"></div>
+						<!-- BEGIN BASIC TEXT LAYER -->
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-4"
+							data-x="['left', 'left', 'left', 'left']" data-hoffset="0" data-y="center"
+							data-voffset="-120"
+							data-frames='[{"delay":0,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:600;">
+							<h2 style="font-size:50px;">Special Offer</h2>
 
-				<div class="row">
-					<!-- single timeline -->
-					<div class="timeline">
-						<div class="timeline-content left">
-							<div class="row" style="margin: 25px 0;border:1px solid #fff;">
-								<div class="col-sm-6">
-									<img src="images/interest/gourmet/sonartori/ambience1.jpg"
-										style="width:100%; height:auto;">
-								</div>
-								<div class="col-sm-6" style="font-size:15px;">
-									<h3 style="margin-left: 0px; margin-left: px; padding-bottom: 5px;">
-										Strategic Intent</h3>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										To tap the immense latent opportunities that exist by creating synergy between
-										products and services curated from diverse verticals and generating demand to
-										meet and exceed the expectation of patrons.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										We firmly believe that the endeavour has the potential to grow and serve great
-										number of people by enabling them to make an informed choice to derive value
-										proposition to enrich their lives.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										With its intrinsic desire, Kkavion Enterprise aims to serve the people and
-										businesses with a humane approach by aligning the thought process of all its
-										stakeholders in providing customer-centric services.
-									</p>
-
-
-								</div>
-							</div>
-						</div>
-						<!-- single timeline -->
-
-						<div class="timeline-content left">
-							<div class="row" style="margin: 25px 0;border:1px solid #fff;">
-								<div class="col-sm-6" style="font-size:15px;">
-									<h3 style="margin-left: 0px; margin-left: px; padding-bottom: 5px;">
-										Vision</h3>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										Kkavion Enterprise would specialise in curating different products and services
-										in diverse verticals to generate demand for the same.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										We would like to reach out to serve 10,000 people in the city of Kolkata with
-										its customer-centric services in diverse verticals.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										We are dedicated to build processes based on the various functions of sales &
-										marketing to fulfil the needs and aspirations of individuals and businesses.
-									</p>
-
-								</div>
-								<div class="col-sm-6">
-									<img src="images/interest/gourmet/sonartori/ambience1.jpg"
-										style="width:100%; height:auto;">
-								</div>
-							</div>
-						</div>
-						<!-- single timeline -->
-
-						<div class="timeline-content left">
-							<div class="row" style="margin: 25px 0;border:1px solid #fff;">
-								<div class="col-sm-6">
-									<img src="images/interest/gourmet/sonartori/ambience1.jpg"
-										style="width:100%; height:auto;">
-								</div>
-								<div class="col-sm-6" style="font-size:15px;">
-									<h3 style="margin-left: 0px; margin-left: px; padding-bottom: 5px;">
-										Mission
-									</h3>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										Provide its patron with customer-centric services in diverse verticals such as
-										Hospitality, Housing, Lifestyle, Education and Talent Management.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										Its customer-centric approach with humane touch for whom customers are just not
-										a “customer code” instead a ‘real’ being whose needs and requirements are to be
-										taken care of, and in the process develop a long lasting relationship that would
-										be cherished and valued by both i.e., the organisation and by its patron.
-									</p>
-
-
-								</div>
-							</div>
-						</div>
-						<!-- single timeline -->
-
-						<div class="timeline-content left">
-							<div class="row" style="margin: 25px 0;border:1px solid #fff;">
-								<div class="col-sm-6" style="font-size:15px;">
-									<h3 style="margin-left: 0px; margin-left: px; padding-bottom: 5px;">
-										Brand Promise
-									</h3>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										To empower people by providing solutions through customer-centric services in
-										diverse verticals.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										To enable individuals and businesses to realise value proposition that would
-										enrich their lives.
-									</p>
-									<p
-										style="font-size:15px; font-weight:normal; text-align: justify;margin-bottom:10px">
-										Provide intuitive services through continuous improvement to deliver value
-										proposition and build an endearing relationship.
-									</p>
-
-
-								</div>
-								<div class="col-sm-6">
-									<img src="images/interest/gourmet/sonartori/ambience1.jpg"
-										style="width:100%; height:auto;">
-								</div>
-							</div>
 						</div>
 
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-42"
+							data-x="left" data-hoffset="0" data-y="center" data-voffset="-70"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; font-size:25px; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							<h3>7 Days in Eangland Tour Start From<span>$250</span></h3>
+						</div>
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p4" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="-10"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+						</div>
 
-						<!-- single timeline -->
+						<!-- LAYER NR. 5 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p44" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="20"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+
+						<!-- LAYER NR. 6 -->
+						<div class="tp-caption lfb tp-resizeme header-btn-4" data-x="left" data-hoffset="0"
+							data-y="center" data-voffset="120"
+							data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 8;"><a href="outskirts-page.html"
+								class="travel-primary-btn hvr-shutter-out-vertical">Explore</a>
+						</div>
+					</li>
+					<!-- end first slider -->
+					<!-- second slider -->
+					<li data-transition="random-premium" data-title="Slide Title" data-param1="Additional Text"
+						data-thumb="images/slider/slider-back-03.jpg">
+						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+						<img src="images/home/banner/2.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+							data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+							data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500"
+							data-bgparallax="10" class="rev-slidebg" data-no-retina>
+						<div class="image-overlay"></div>
+						<!-- BEGIN BASIC TEXT LAYER -->
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-4"
+							data-x="['left', 'left', 'left', 'left']" data-hoffset="0" data-y="center"
+							data-voffset="-120"
+							data-frames='[{"delay":0,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:600;">
+							<h2 style="font-size:50px;">Special Offer</h2>
+
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-42"
+							data-x="left" data-hoffset="0" data-y="center" data-voffset="-70"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; font-size:25px; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							<h3>7 Days in Eangland Tour Start From<span>$250</span></h3>
+						</div>
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p4" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="-10"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+						</div>
+
+						<!-- LAYER NR. 5 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p44" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="20"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+
+						<!-- LAYER NR. 6 -->
+						<div class="tp-caption lfb tp-resizeme header-btn-4" data-x="left" data-hoffset="0"
+							data-y="center" data-voffset="120"
+							data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 8;"><a href="digha.html"
+								class="travel-primary-btn hvr-shutter-out-vertical">Explore</a>
+						</div>
+					</li><!-- end second slider -->
+					<!-- third slider -->
+					<li data-transition="random-premium" data-title="Slide Title" data-param1="Additional Text"
+						data-thumb="images/slider/slider-back-03.jpg">
+						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+						<img src="images/home/banner/3.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+							data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+							data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500"
+							data-bgparallax="10" class="rev-slidebg" data-no-retina>
+						<div class="image-overlay"></div>
+						<!-- BEGIN BASIC TEXT LAYER -->
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-4"
+							data-x="['left', 'left', 'left', 'left']" data-hoffset="0" data-y="center"
+							data-voffset="-120"
+							data-frames='[{"delay":0,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:600;">
+							<h2 style="font-size:50px;">Special Offer</h2>
+
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-42"
+							data-x="left" data-hoffset="0" data-y="center" data-voffset="-70"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; font-size:25px; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							<h3>7 Days in Eangland Tour Start From<span>$250</span></h3>
+						</div>
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p4" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="-10"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+						</div>
+
+						<!-- LAYER NR. 5 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p44" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="20"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+
+						<!-- LAYER NR. 6 -->
+						<div class="tp-caption lfb tp-resizeme header-btn-4" data-x="left" data-hoffset="0"
+							data-y="center" data-voffset="120"
+							data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 8;"><a href="mandarmani.html"
+								class="travel-primary-btn hvr-shutter-out-vertical">Explore</a>
+						</div>
+					</li>
+					<!-- end third slider -->
+					<!-- fourth slider -->
+					<li data-transition="random-premium" data-title="Slide Title" data-param1="Additional Text"
+						data-thumb="images/slider/slider-back-03.jpg">
+						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+						<img src="images/home/banner/4.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+							data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+							data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500"
+							data-bgparallax="10" class="rev-slidebg" data-no-retina>
+						<div class="image-overlay"></div>
+						<!-- BEGIN BASIC TEXT LAYER -->
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-4"
+							data-x="['left', 'left', 'left', 'left']" data-hoffset="0" data-y="center"
+							data-voffset="-120"
+							data-frames='[{"delay":0,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:600;">
+							<h2 style="font-size:50px;">Special Offer</h2>
+
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-42"
+							data-x="left" data-hoffset="0" data-y="center" data-voffset="-70"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; font-size:25px; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							<h3>7 Days in Eangland Tour Start From<span>$250</span></h3>
+						</div>
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p4" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="-10"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+						</div>
+
+						<!-- LAYER NR. 5 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p44" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="20"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+
+						<!-- LAYER NR. 6 -->
+						<div class="tp-caption lfb tp-resizeme header-btn-4" data-x="left" data-hoffset="0"
+							data-y="center" data-voffset="120"
+							data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 8;"><a href="shantiniketan.html"
+								class="travel-primary-btn hvr-shutter-out-vertical">Explore</a>
+						</div>
+					</li><!-- end fourth slider -->
+					<!-- fifth slider -->
+					<li data-transition="random-premium" data-title="Slide Title" data-param1="Additional Text"
+						data-thumb="images/slider/slider-back-03.jpg">
+						<!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+						<img src="images/home/banner/5.jpg" alt="" data-bgposition="center center" data-kenburns="on"
+							data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+							data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500"
+							data-bgparallax="10" class="rev-slidebg" data-no-retina>
+						<div class="image-overlay"></div>
+						<!-- BEGIN BASIC TEXT LAYER -->
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-4"
+							data-x="['left', 'left', 'left', 'left']" data-hoffset="0" data-y="center"
+							data-voffset="-120"
+							data-frames='[{"delay":0,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:600;">
+							<h2 style="font-size:50px;">Special Offer</h2>
+
+						</div>
+
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 title-line-42"
+							data-x="left" data-hoffset="0" data-y="center" data-voffset="-70"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 6; font-size:25px; color:#fff; text-transform:capitalize; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							<h3>7 Days in Eangland Tour Start From<span>$250</span></h3>
+						</div>
+						<!-- LAYER NR. 4 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p4" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="-10"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod
+						</div>
+
+						<!-- LAYER NR. 5 -->
+						<div class="tp-caption font-lora sfb tp-resizeme letter-space-5 header-p44" data-x="left"
+							data-hoffset="0" data-y="center" data-voffset="20"
+							data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 7; font-size:18px; color:#fff; font-family:'Poppins', sans-serif; white-space: nowrap; font-weight:400;">
+							tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+
+						<!-- LAYER NR. 6 -->
+						<div class="tp-caption lfb tp-resizeme header-btn-4" data-x="left" data-hoffset="0"
+							data-y="center" data-voffset="120"
+							data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+							style="z-index: 8;"><a href="sundarbans.html"
+								class="travel-primary-btn hvr-shutter-out-vertical">Explore</a>
+						</div>
+					</li>
+					<!-- end fifth slider -->
+				</ul><!-- END SLIDES LIST -->
+			</div><!-- END SLIDER CONTAINER -->
+		</div><!-- END SLIDER CONTAINER WRAPPER -->
+	</section><!-- slider area end here -->
 
 
-					</div>
-				</div>
-				<div class="single-package-details">
-					<div class="section-title" style="text-align:center; margin-bottom:0px;">
-						<h2>Credo</h2>
-						<p style="margin: 0 200px;">
-							We would be accountable for our responsibility,
-							self-critical of our actions to earn the trust
-							by providing customer-centric services
-							in pursuit of excellence
-							to Enrich
-							lives
-
-						</p>
-					</div>
-				</div><!-- tab menu strat -->
-			</div>
-		</div>
-	</section>
-	<!-- single popular destination  end-->
 
 
 
-	<section class="section-paddings">
+
+	<!-- top destination start here -->
+	<section class="top-destination-area" style="padding-top: 25px;">
 		<div class="container">
 			<div class="row">
-				<!-- Partner resort starts here -->
-				<div class="partner-slider-2">
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/KHW.png">
-						</a>
+				<div class="col-sm-12">
+					<div class="section-title text-center">
+						<h2>Resource Efficient</h2>
+						<p>Whether long or short, we all desire a break in our lives to experience the uncommon. Get
+							away from the usual humdrum of the city instantly to find comfort and solace in a home away
+							from home. Discover the nooks and corners of the outskirts to revive your soul and get back
+							to your daily life renewed and refreshed!</p>
 					</div>
-					<!-- single partner ends -->
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/ih.png">
-						</a>
+				</div>
+			</div>
+			<div class="row">
+				<!-- single travel start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-travel">
+						<div class="media">
+							<div class="media-body travel-content" style="text-align: center;">
+								<i class="mdi mdi-account-group-outline" style="font-size: 40px; color: #424242;"></i>
+								<h4 style="margin-top:10px"><a href="xessence-khw.html"
+										style="color: #454545; text-decoration:none;">Manpower</a></h4>
+								<p>We help you personalise your holiday and plan it all out based on your needs and
+									aspirations</p>
+							</div>
+						</div>
 					</div>
-					<!-- single partner ends -->
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/kps.png">
-						</a>
+				</div> <!-- single travel end -->
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-travel">
+						<div class="media">
+							<div class="media-body travel-content" style="text-align: center;">
+								<i class="mdi mdi-bullhorn-outline" style="font-size: 40px; color: #424242;"></i>
+								<h4 style="margin-top:10px"><a href="xessence-khw.html"
+										style="color: #454545; text-decoration:none;">Promotion</a></h4>
+								<p>We help you personalise your holiday and plan it all out based on your needs and
+									aspirations</p>
+							</div>
+						</div>
 					</div>
-					<!-- single partner ends -->
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/edify.png">
-						</a>
+				</div> <!-- single travel end -->
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-travel">
+						<div class="media">
+							<div class="media-body travel-content" style="text-align: center;">
+								<i class="mdi mdi-clock-time-nine-outline" style="font-size: 40px; color: #424242;"></i>
+								<h4 style="margin-top:10px"><a href="xessence-khw.html"
+										style="color: #454545; text-decoration:none;">Time</a></h4>
+								<p>We help you personalise your holiday and plan it all out based on your needs and
+									aspirations</p>
+							</div>
+						</div>
 					</div>
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/ken.png">
-						</a>
+				</div> <!-- single travel end -->
+			</div>
+		</div>
+	</section>
+	<!-- top destination end here -->
+
+
+
+	<section class="top-destination-area" style="padding-bottom: 25px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="section-title text-center">
+						<h2>Our Initiatives</h2>
+						<p>Whether long or short, we all desire a break in our lives to experience the uncommon. Get
+							away from the usual humdrum of the city instantly to find comfort and solace in a home away
+							from home. Discover the nooks and corners of the outskirts to revive your soul and get back
+							to your daily life renewed and refreshed!</p>
 					</div>
-					<!-- single partner ends -->
-					<!-- single partner starts -->
-					<div class="single-partner-slider-2">
-						<a href="resort-page.html">
-							<img src="images/logos/kcs.png">
-						</a>
+				</div>
+			</div>
+			<div class="timeline">
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/khw.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								KKavion Holiday World
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
 					</div>
-					<!-- single partner ends -->
+				</div>
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/ih.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								Instaholiday
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/kps.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								KKavion Properties
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/edify.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								Edify
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/ken.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								KKavion Encircle
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="timeline-content left">
+					<div class="row box" style="margin: 20px 0px;border:1px solid #fff;">
+						<div class="col-sm-5" style="padding:20px 30px; ">
+							<img src="images/services/kcs.jpg" style="width: 100%;">
+						</div>
+						<div class="col-sm-7" style="padding: 20px;">
+							<h3>
+								KKavion Consultancy Services
+							</h3>
+							<p style="text-align: justify;margin-bottom:10px;">
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+								Passionate about adventuring into the mountains? Here’s your chance
+								of
+								witnessing the mountains and nature for what it truly is, beautiful
+								and
+								pure!
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
 
 
 
@@ -557,7 +849,7 @@
 				<div class="col-md-3 col-sm-6 f-phone-responsive">
 					<div class="single-footer" style="padding: 0;">
 						<div class="footer-title foot">
-							<h4>Write To Us</h4>
+							<h4>Your Query</h4>
 						</div>
 						<div class="footer-contact-form">
 							<form name="footer-query" class="your-query-form" netlify-honeypot="bot-field"
@@ -565,39 +857,39 @@
 
 
 								<p class="hidden">
-									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+									<label>Don’t fill this out if you’re human: <input name="bot-field"></label>
 								</p>
 								<div class="form-group col-md-12">
-									<select id="compsect" aria-placeholder="Holiday Sale*" class="form-control"
+									<select id="compsect" aria-placeholder="Your Query *" class="form-control"
 										name="compsect">
-										<option value="" hidden>Wish To Avail</option>
-										<option value="holidaysale">Holiday Sale</option>
-										<option value="hs@0">Holiday Sale @ Zero</option>
-										<option value="holidaysurprise">Holiday Surprise</option>
-										<option value="wedding">Wedding</option>
-										<option value="conference">Conference</option>
+										<option value="" hidden="">Your Query</option>
+										<option value="holidays">Holidays</option>
+										<option value="properties">Properties</option>
+										<option value="education">Education</option>
+										<option value="lifestyle">Lifestyle</option>
+										<option value="consultancy">Consultancy</option>
 									</select>
 								</div>
 
 
 								<div class="form-group col-md-12">
 									<input type="text" name="Name" id="name" placeholder="Name" class="form-control"
-										required>
+										required="">
 								</div>
 
 								<div class="form-group col-md-12">
 									<input type="number" name="number" id="number" placeholder="Whatsapp Number"
-										class="form-control" required>
+										class="form-control" required="">
 								</div>
 
 								<div class="form-group col-md-12">
 									<input type="email" name="email" id="email" placeholder="Email Address"
-										class="form-control" required>
+										class="form-control" required="">
 								</div>
 
 								<div class="form-group col-md-12">
 									<textarea name="message" id="message" placeholder="Message" class="form-control"
-										required></textarea>
+										required=""></textarea>
 								</div>
 
 								<div class="form-group col-md-12">
@@ -657,10 +949,14 @@
 		})();
 	</script>
 	<!--End of Tawk.to Script-->
+
+
+
+
+	<!-- footer ends -->
 	<div class="to-top pos-rtive">
 		<a><i class="fa fa-angle-up"></i></a>
-	</div>
-	<!--End Scroll to top-->
+	</div> <!-- Scroll to top jump button end-->
 
 	<!-- ============================
             JavaScript Files
@@ -693,6 +989,19 @@
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<!-- chossen js -->
 	<script src="js/chosen.jquery.min.js"></script>
+	<script src="js/assets/revolution/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/assets/revolution/jquery.themepunch.tools.min.js"></script>
+	<!-- Revolution Extensions -->
+	<script src="js/assets/revolution/extensions/revolution.extension.actions.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.migration.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="js/assets/revolution/extensions/revolution.extension.video.min.js"></script>
+	<script src="js/assets/revolution/revolution.js"></script>
 	<!-- Jquery plugin -->
 	<script src="js/plugins.js"></script>
 	<!-- select2 js plugin -->
@@ -702,6 +1011,8 @@
 	<script src="js/jquery-customselect.js"></script>
 	<!-- main js -->
 	<script src="js/custom.js"></script>
+	<!-- jquery confirm js-->
+	<script src="js/jquery-confirm.min.js"></script>
 	<script>
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
@@ -715,7 +1026,7 @@
 		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 		function myFunction() {
 			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky")
+				navbar.classList.add("sticky");
 			}
 			else {
 				navbar.classList.remove("sticky");
