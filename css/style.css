@@ -136,7 +136,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  p {
      margin: 0 0 15px;
-     font-size: 15px;
+     font-size: 16px;
      color: #727272;
      font-weight: 400;
      font-family: 'Open Sans', sans-serif;
@@ -166,7 +166,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  body {
      font-family: 'Oxygen', sans-serif;
-     color: #252525;
+     color: white;
      font-size: 16px;
      font-weight: 400;
 }
@@ -685,7 +685,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 2;
 }
  .section-title h2:before, .section-title h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after {
-     background: #454545 none repeat scroll 0 0;
+     background: #aaa none repeat scroll 0 0;
      bottom: 3.8px;
      content: "";
      height: 1px;
@@ -707,6 +707,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 2;
      line-height: 25px;
      padding-top: 10px;
+     text-align: justify;
 }
  .section-title-white h2, .section-title-white-2 h2 {
      color: #ffffff;
@@ -975,13 +976,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-travel {
      background: #ffffff none repeat scroll 0 0;
-     padding: 20px;
+     padding: 15px;
      margin-bottom: 40px;
      border-radius: 3px;
      position: relative;
      z-index: 2;
      transition: all ease-in-out 0.5s;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      border: 1px solid #c0c0c0;
 }
  .single-travel .travel-number {
@@ -1284,7 +1285,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 14.Footer area section css goes here =======================================================*/
  .footer-area {
-     background: #ececec url("") no-repeat scroll 99% center/cover;
+     background: #013f85 url("") no-repeat scroll 99% center/cover;
      padding-bottom: 10px;
 }
  .footer-area .single-footer {
@@ -1293,7 +1294,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-title {
      font-weight: 600;
      font-size: 20px;
-     color: black;
+     color: white;
      padding: 10px 0;
 }
  .footer-area .single-footer .footer-left .footer-logo p {
@@ -3962,16 +3963,15 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .main-timeline:before {
      content: "";
      width: 2px;
-     height: 88%;
-     background: #cccccc;
-     margin: 0 auto;
+     height: 60%;
+     margin: auto 0;
      position: absolute;
-     top: 0;
-     left: 10px;
+     left: 35px;
      z-index: -1;
+     border: 2px dashed #888;
 }
  .main-timeline .timeline {
-     margin-bottom: 30px;
+     margin-bottom: 50px;
      position: relative;
 }
  .main-timeline .timeline:before, .main-timeline .timeline:after {
@@ -3981,29 +3981,29 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      clear: both;
 }
  .main-timeline .timeline .timeline-content {
-     padding: 0 50px;
+     padding: 40px;
      transition: all 0.3s ease 0s;
      width: 100%;
 }
  .main-timeline .timeline .timeline-content h4 {
      transition: all ease-in-out 0.5s;
-     color: #454545;
+     color: black;
      font-size: 18px;
      font-weight: 500;
 }
  .main-timeline .timeline .timeline-content .timeline-icon {
-     background: #034ea2 none repeat scroll 0 0;
+     background: #888 none repeat scroll 0 0;
      border-radius: 100%;
      color: #ffffff;
      font-size: 35px;
      font-weight: 500;
-     height: 82px;
+     height: 100px;
      left: -30px;
-     line-height: 80px;
+     line-height: 100px;
      position: absolute;
      text-align: center;
      top: 0;
-     width: 82px;
+     width: 100px;
      z-index: 1;
      transition: all ease-in-out 0.5s;
 }
@@ -4011,10 +4011,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-left: 40px;
 }
  .main-timeline .timeline:hover .timeline-icon {
-     background: #ed1c24;
+     background: #034ea2;
 }
  .main-timeline .timeline:hover .timeline-content h4 {
-     color: #ed1c24;
+     color: #034ea2;
 }
 /*===================================================== 55.contact section start here =======================================================*/
  #googleMap {
@@ -4422,6 +4422,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .section-title h2, .section-title-white h2, .section-title-white-2 h2 {
     font-size: 37px;
     text-transform: capitalize;
+    color: #ed1c24;
 }
 .single-travel-blog .blog-content .blog-post-content a {
     font-size: 14px;

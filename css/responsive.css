@@ -398,4 +398,26 @@
     {
          text-align: left;
     }
+    .initiatives .timeline .left
+    {
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .initiatives .timeline .timeline-content .timeline-icon
+    {
+        left: 27px;
+        display: block;
+    }
+    .initiatives .timeline .timeline-content h4
+    {
+        padding-top: 120px;
+    }
+    .main-timeline::before
+    {
+        width: 50%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
 }

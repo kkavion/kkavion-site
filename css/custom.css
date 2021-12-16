@@ -195,7 +195,7 @@
 }
 .single-country
 {
-	box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;
+	box-shadow: 0 0 7px white !important;
 	border-radius: 6px;
 }
 .single-package-carasoul:hover
@@ -214,7 +214,7 @@
 }
 .timeline-content .box
 {
-	background-color: #f0f0f0;
+	background-color: white;
 	border-radius: 5px;
 }
 .timeline-content .resort-box
@@ -763,5 +763,27 @@ button
 }
 .footer-contact li a:hover
 {
-     color: black !important;
+     color:  white !important;
+}
+.single-travel i
+{
+     transition: all ease-in-out 0.5s;
+     color: #424242;
+}
+.single-travel:hover i
+{
+     color: #034ea2;
+}
+.single-travel a
+{
+     transition: all ease-in-out 0.5s;
+     color: #424242;
+}
+.single-travel:hover a
+{
+     color: #034ea2;
+}
+.single-travel p
+{
+     text-align: center;
 }

@@ -3209,7 +3209,7 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary {
  color:#fff;
  background-color:#034ea2;
- border-color:#08f;
+ border-color:#888;
   font-family: 'Open Sans', sand-serif;
 }
 .btn-primary.focus,
