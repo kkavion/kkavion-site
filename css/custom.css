@@ -428,13 +428,13 @@
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      margin-bottom: 30px;
-     border-radius: 3px;
+     border-radius: 10px;
 }
 .top-destination-area .single-hotels .hotel-image
 {
      position: relative;
      overflow: hidden;
-     border-radius: 3px 3px 0 0;
+     border-radius: 10px 10px 0 0;
 }
 .top-destination-area .single-hotels .hotel-image img
 {
@@ -471,6 +471,10 @@
 .hotels-area
 {
      padding: 20px 0;
+}
+.hotels-area img
+{
+     width: 40%;
 }
 .main-menu .fa
 {
@@ -787,3 +791,61 @@ button
 {
      text-align: center;
 }
+.col-md-12 .subscribe-title a
+{
+     border: 1px solid #666;
+     border-radius: 5px;
+     padding: 5px;
+     text-decoration: none;
+     background: #049DD9;
+     background: -webkit-linear-gradient(to right, #049DD9 0%, #f2911b 100%);
+     background: -moz-linear-gradient(to right, #049DD9 0%, #f2911b 100%);
+     background: linear-gradient(to right, #049DD9 0%, #f2911b 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     
+}
+.arrowslides
+{
+     padding: 20px 0;
+}
+.arrow {
+     width: 35px;
+     height: 35px;
+     border: 7px solid;
+     border-color: black transparent transparent black;
+     transform: rotate(225deg);
+   }
+   
+   
+   .arrowSliding {
+     position: absolute;
+     -webkit-animation: slide 4s linear infinite; 
+             animation: slide 4s linear infinite;
+   }
+   
+   .delay1 {
+     -webkit-animation-delay: 1s; 
+       animation-delay: 1s;
+   }
+   .delay2 {
+     -webkit-animation-delay: 2s; 
+       animation-delay: 2s;
+   }
+   .delay3 {
+     -webkit-animation-delay: 3s; 
+       animation-delay: 3s;
+   }
+   
+   @-webkit-keyframes slide {
+       0% { opacity:0; transform: translateY(-15vw); }	
+      20% { opacity:1; transform: translateY(-9vw); }	
+      80% { opacity:1; transform: translateY(9vw); }	
+     100% { opacity:0; transform: translateY(15vw); }	
+   }
+   @keyframes slide {
+       0% { opacity:0; transform: translateY(-30px); }	
+      30% { opacity:1; transform: translateY(-10px); }	
+      70% { opacity:1; transform: translateY(10px); }	
+     100% { opacity:0; transform: translateY(30px); }	
+   }

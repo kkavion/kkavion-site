@@ -3207,8 +3207,8 @@ fieldset[disabled] .btn-default:hover {
  background-color:#333
 }
 .btn-primary {
- color:#fff;
- background-color:#034ea2;
+ color:black;
+ background-color:#ccc;
  border-color:#888;
   font-family: 'Open Sans', sand-serif;
 }

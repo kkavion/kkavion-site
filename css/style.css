@@ -166,7 +166,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  body {
      font-family: 'Oxygen', sans-serif;
-     color: white;
+     color: black;
      font-size: 16px;
      font-weight: 400;
 }
@@ -2254,12 +2254,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 25.home version 2 subscribe section css goes here =======================================================*/
  .subscribe-area-2 {
-     background: transparent url("../images/bgimage/subs.jpg") repeat scroll 0 0;
+     background: white;
      padding: 10px 0;
      background-position: center center;
+     text-align: center;
 }
  .subscribe-area-2 .subscribe-title {
-     color: #ffffff;
+     color: #034ea2;
      font-size: 30px;
      font-weight: 600;
      margin-top: 14px;
@@ -3178,8 +3179,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: white;
 }
 .single-hotels:hover {
-     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-     transition: all 1s ease-in-out;
+     box-shadow: 0 0 10px rgba(0,0,0,1) !important;
+     transition: all .3s ease-in-out;
 }
  .single-hotels .hotel-image {
      position: relative;
@@ -3491,7 +3492,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .owl-dots .owl-dot span {
      backface-visibility: visible;
-     background: #ffffff none repeat scroll 0 0;
+     background: #bbb none repeat scroll 0 0;
      border-radius: 100%;
      display: block;
      height: 14px;
@@ -3500,7 +3501,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 14px;
 }
  .testimonial-area-5 .owl-dots .owl-dot.active span {
-     background: #034ea2;
+     background: #ed1c24;
 }
  .testimonial-area-5 .owl-stage {
      transition: 0.9s !important;
