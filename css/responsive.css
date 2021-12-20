@@ -298,6 +298,30 @@
     {
         visibility: hidden;
     }
+    .ih::before
+    {
+        height: 100%;
+    }
+    .khw::before
+    {
+        height: 60%;
+    }
+    .kps::before
+    {
+        height: 40%;
+    }
+    .ken::before
+    {
+        height: 0%;
+    }
+    .edify::before
+    {
+        height: 20%;
+    }
+    .kcs::before
+    {
+        height: 20%;
+    }
 }
 
 
@@ -413,9 +437,44 @@
     {
         padding-top: 120px;
     }
-    .main-timeline::before
+    .ih::before
+    {
+        width: 90%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
+    .khw::before
     {
         width: 50%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
+    .kps::before
+    {
+        width: 35%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
+    .ken::before
+    {
+        width: 0%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
+    .edify::before
+    {
+        width: 20%;
+        height: 2px;
+        left: 50px;
+        top: 50px;
+    }
+    .kcs::before
+    {
+        width: 20%;
         height: 2px;
         left: 50px;
         top: 50px;

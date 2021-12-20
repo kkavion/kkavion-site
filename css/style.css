@@ -3501,7 +3501,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 14px;
 }
  .testimonial-area-5 .owl-dots .owl-dot.active span {
-     background: #ed1c24;
+     background: #034ea2;
 }
  .testimonial-area-5 .owl-stage {
      transition: 0.9s !important;
@@ -3964,7 +3964,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .main-timeline:before {
      content: "";
      width: 2px;
-     height: 60%;
      margin: auto 0;
      position: absolute;
      left: 35px;
@@ -3993,9 +3992,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 500;
 }
  .main-timeline .timeline .timeline-content .timeline-icon {
-     background: #888 none repeat scroll 0 0;
+     background: #bcbec0 none repeat scroll 0 0;
      border-radius: 100%;
-     color: #ffffff;
+     color: #034ea2;
      font-size: 35px;
      font-weight: 500;
      height: 100px;
@@ -4013,6 +4012,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .main-timeline .timeline:hover .timeline-icon {
      background: #034ea2;
+     color: white;
 }
  .main-timeline .timeline:hover .timeline-content h4 {
      color: #034ea2;
