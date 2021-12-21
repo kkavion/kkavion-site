@@ -769,6 +769,12 @@ button
 .footer-contact li a:hover
 {
      color:  white !important;
+     font-weight: bold !important;
+}
+.footer-contact li .ftrr-txt-ttl-dsc
+{
+     color: initial;
+     font-weight: initial;
 }
 .single-travel a
 {
@@ -871,4 +877,18 @@ button
 .single-travel:hover .kkavion-ico i
 {
      color: white;
+}
+.career-content p, .career-content li
+{
+     color: gray;
+}
+.career-content i
+{
+     font-family: 'Oxygen', sans-serif;
+     font-size: 15px;
+}
+.footer-contact li .ftrr-txt-ttl-dsc:hover
+{
+     color: white !important;
+     font-weight: 400 !important;
 }
