@@ -769,7 +769,6 @@ button
 .footer-contact li a:hover
 {
      color:  white !important;
-     font-weight: bold !important;
 }
 .footer-contact li .ftrr-txt-ttl-dsc
 {
@@ -881,6 +880,17 @@ button
 .career-content p, .career-content li
 {
      color: gray;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+}
+.career-content h1,
+.career-content h2,
+.career-content h3,
+.career-content h4,
+.career-content h5,
+.career-content h6
+{
+     font-family: 'Oxygen', sans-serif;
 }
 .career-content i
 {
