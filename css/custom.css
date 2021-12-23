@@ -902,3 +902,42 @@ button
      color: white !important;
      font-weight: 400 !important;
 }
+.career-list 
+{ 
+     counter-reset: item;
+     padding-left: 0;
+}
+.career-list li
+{
+     display: block;
+     padding-left: 30px;
+     position: relative;
+}
+.career-list li:before
+{ 
+     content: counter(item) ". ";
+     counter-increment: item;
+     width: 2em;
+     position:absolute;
+     left: 0;
+}
+.career-list2
+{ 
+     list-style-type: lower-alpha;
+     counter-reset: item2;
+     padding-left: 0;
+}
+.career-list2 li
+{
+     display: block;
+     padding-left: 30px;
+     position: relative;
+}
+.career-list2 li:before
+{ 
+     content: counter(item2, lower-alpha) ". ";
+     counter-increment: item2;
+     width: 2em;
+     position:absolute;
+     left: 0;
+}
