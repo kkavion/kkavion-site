@@ -454,6 +454,10 @@
 {
      padding: 10px;
 }
+.top-destination-area .hotel-description p
+{
+     text-align: justify;
+}
 .top-destination-area .hotel-description h4
 {
      color: #034ea2;
@@ -940,4 +944,8 @@ button
      width: 2em;
      position:absolute;
      left: 0;
+}
+.tp-caption h2, .tp-caption h3
+{
+     font-family: 'Oxygen',sans-serif;
 }
