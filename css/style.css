@@ -709,6 +709,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-top: 10px;
      text-align: justify;
 }
+.section-title p:nth-child(2), .section-title p:nth-child(3),.section-title  p:nth-child(4),.section-title p:nth-child(5)
+{
+    line-height: 35px;
+}
  .section-title-white h2, .section-title-white-2 h2 {
      color: #ffffff;
 }
