@@ -671,7 +671,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-bottom: 30px;
      margin-top: 10px;
 }
- .section-title h2, .section-title-white h2, .section-title-white-2 h2 {
+ /*.section-title h2, .section-title-white h2, .section-title-white-2 h2 {
      background-color: transparent;
      background-image: url("../images/line.png");
      background-repeat: no-repeat;
@@ -683,8 +683,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-transform: uppercase;
      background-position: center bottom;
      z-index: 2;
-}
- .section-title h2:before, .section-title h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after {
+}*/
+ /*.section-title h2:before, .section-title h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after {
      background: #aaa none repeat scroll 0 0;
      bottom: 3.8px;
      content: "";
@@ -695,13 +695,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      right: 0;
      text-align: center;
      width: 120px;
-}
+}*/
  .section-title h2:after, .section-title-white h2:after, .section-title-white-2 h2:after {
      left: 180px;
 }
  .section-title p, .section-title-white p, .section-title-white-2 p {
      color: #727272;
-     margin: 0 auto;
+     margin: ;
      max-width: 900px;
      position: relative;
      z-index: 2;
@@ -1003,6 +1003,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 20px;
      color: #454545;
      font-weight: 600;
+     margin-bottom: 10px;
 }
  .single-travel .travel-content p {
      margin: 0;
@@ -4427,7 +4428,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .section-title h2, .section-title-white h2, .section-title-white-2 h2 {
     font-size: 37px;
     text-transform: capitalize;
-    color: #ed1c24;
+    color: #034ea2;
 }
 .single-travel-blog .blog-content .blog-post-content a {
     font-size: 14px;

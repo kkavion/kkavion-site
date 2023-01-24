@@ -784,13 +784,9 @@ button
      transition: all ease-in-out 0.5s;
      color: #424242;
 }
-.single-travel:hover a
+.single-travel:hover a, .single-travel:hover .kkavion-ico i
 {
      color: #034ea2;
-}
-.single-travel p
-{
-     text-align: center;
 }
 .col-md-12 .subscribe-title a
 {
@@ -802,6 +798,7 @@ button
      background: -webkit-linear-gradient(to right, #049DD9 0%, #f2911b 100%);
      background: -moz-linear-gradient(to right, #049DD9 0%, #f2911b 100%);
      background: linear-gradient(to right, #049DD9 0%, #f2911b 100%);
+     background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      
@@ -860,26 +857,14 @@ button
 }
 .kkavion-ico
 {
-     padding: 10px;
-     background: #bcbec0;
      border-radius: 100%;
-     margin: 0 auto;
-     width: 80px;
      transition: all ease-in-out 0.5s;
 }
 .kkavion-ico i
 {
-     font-size: 40px;
-     color: #034ea2;
+     font-size: 60px;
+     color: #424242;
      transition: all ease-in-out 0.5s;
-}
-.single-travel:hover .kkavion-ico
-{
-     background: #034ea2;
-}
-.single-travel:hover .kkavion-ico i
-{
-     color: white;
 }
 .career-content p, .career-content li
 {
@@ -948,4 +933,21 @@ button
 .tp-caption h2, .tp-caption h3
 {
      font-family: 'Oxygen',sans-serif;
+}
+.section-title h2:before
+{
+     background: #034ea2 none repeat scroll 0 0;
+     top: 50px;
+     content: "";
+     height: 2px;
+     position: absolute;
+     right: 0;
+     text-align: left;
+     width: 120px;
+     left: 15px;
+     transition: 1s ease-in-out; 
+}
+.section-title:hover h2:before
+{
+     width: 250px;
 }
