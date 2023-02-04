@@ -503,4 +503,33 @@
     {
          top: 70% !important;
     }
+    .about-us-area1
+    {
+        background-position: bottom 170px right 0;
+        background-repeat: no-repeat;
+    }
+    .about-us-area1 .container:nth-child(2) .single-package-details
+    {        
+        background-size: 25%;
+        background-image: url(../images/line-images/telescope.svg);
+        background-repeat: no-repeat;
+        background-position: 100% bottom;
+    }
+    .about-us-area1 .container:nth-child(2) .single-package-details .section-title
+    {
+        width: 70%;
+        padding: 25px;
+    }
+    .about-us-area2 .container:nth-child(1) .single-package-details .section-title
+    {
+        width: 75%;
+        float: right;
+    }
+    .about-us-area2 .container:nth-child(1)
+    {        
+        background-size: 20%;
+        background-image: url(../images/line-images/paperplane.svg);
+        background-repeat: no-repeat;
+        background-position: top 70% left;
+    }
 }

@@ -99,7 +99,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  html, body {
      height: 100%;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
 }
  body {
      position: relative;
@@ -139,11 +139,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 16px;
      color: #727272;
      font-weight: 400;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
 }
  h1, h2, h3, h4, h5, h6 {
      margin: 0 0 0;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
 }
  a {
      -webkit-transition: all 0.3s ease 0s;
@@ -165,7 +165,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      clear: both;
 }
  body {
-     font-family: 'Oxygen', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
      color: black;
      font-size: 16px;
      font-weight: 400;
@@ -202,7 +202,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 3px;
      font-size: 15px;
      color: #fff;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Source Sans Pro", sans-serif;
      font-size: 15px;
      text-decoration: none;
 }
@@ -701,13 +701,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .section-title p, .section-title-white p, .section-title-white-2 p {
      color: #727272;
-     margin: ;
-     max-width: 900px;
      position: relative;
      z-index: 2;
      line-height: 25px;
      padding-top: 10px;
      text-align: justify;
+     font-size: 18px;
 }
 .section-title p:nth-child(2), .section-title p:nth-child(3),.section-title  p:nth-child(4),.section-title p:nth-child(5)
 {
@@ -1008,10 +1007,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-travel .travel-content p {
      margin: 0;
      line-height: 24px;
+     transition: all ease-in-out 0.5s;
 }
  .single-travel:hover {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-     cursor: pointer;
+     background: #ed1c24;
+     cursor: default;
 }
 /*===================================================== 09.Blog section css goes here =======================================================*/
  .single-travel-blog {
@@ -1264,7 +1265,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-repeat: no-repeat;
      background-position: center right 147px;
      padding-bottom: 0;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Source Sans Pro', sans-serif;
 }
  .subscribe-area .subscribe-form .serach-form input:focus {
      outline: none;
@@ -2517,7 +2518,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 29.why choose travelser section css goes here =======================================================*/
  .choose-trabble-version-2 {
-     background: #f4f4f4;
+     background: ;
 }
  .choose-trabble-version-2 .single-travel {
      margin-bottom: 30px;
@@ -2879,7 +2880,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .thailand-trip .starting {
      position: absolute;
      text-align: center;
-     top: 40%;
+     top: 45%;
      transform: translateY(-40%);
      z-index: 33;
      width: 130px;
@@ -2893,7 +2894,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      line-height: 25px;
 }
  .thailand-trip .starting .starting-elemnts {
-     padding: 40px 0;
+     padding: 35px 10px;
 }
  .thailand-trip .starting .starting-elemnts p {
      color: #454545;
@@ -2907,9 +2908,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .thailand-trip .starting:before {
      background: #ffffff none repeat scroll 0 0;
      content: "";
-     height: 180px;
+     height: 200px;
      position: absolute;
-     top: -136%;
+     top: -152%;
      width: 1px;
 }
 /*===================================================== 34.Testimonial two section css goes here =======================================================*/
@@ -3247,6 +3248,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 0 0;
      text-align: center;
      margin: 10px;
+     border-radius: 100%;
 }
  .partner-slider-2 .single-partner-slider-2 h3 {
      font-size: 20px;
@@ -3256,6 +3258,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .partner-slider-2 .slick-slide img {
      display: inline-block;
      padding: 25px;
+     border-radius: 100%;
 }
 /*===================================================== 44.Home version 4 footer section start here =======================================================*/
  .footer-area-2 .single-footer p {
@@ -3449,6 +3452,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      overflow: hidden;
      padding: 30px 0 20px 0;
+     border-radius: 10px;
 }
  .testimonial-area-5:before {
      position: absolute;
@@ -3462,6 +3466,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .single-testimonial {
      text-align: center;
+     border-radius: 10px;
 }
  .testimonial-area-5 .single-testimonial img {
      width: 120px;
@@ -4429,6 +4434,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
     font-size: 37px;
     text-transform: capitalize;
     color: #034ea2;
+    font-weight: bold;
 }
 .single-travel-blog .blog-content .blog-post-content a {
     font-size: 14px;
