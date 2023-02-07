@@ -1,6 +1,10 @@
 /*      Tablet Layout: 768px.    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .thailand-trip .starting:before
+    {
+        height: 230px;
+    }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
 
@@ -123,16 +127,42 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .ourteam-area
+    {
+        background-size: 200% 25% !important;
+    }
+    .section-paddings
+    {
+        padding-bottom: 10px;
+    }
+    
+    .initiatives
+    {
+        padding-bottom: 0 !important;;
+    }
+    .slider-area-2 b
+    {
+        font-weight: 700 !important;
+        font-size: 16px !important;
+    }
+    .slider-area-2 .slider-text
+    {
+        font-size: 12px !important;
+    }
+    .main-timeline .timeline .timeline-content .timeline-icon
+    {
+        left: -3px !important;
+    }
+    .thailand-trip .starting:before
+    {
+        height: 70px;
+    }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
     .mean-bar img
     {
         max-height: 45px;
         padding-left: 11px;
-    }
-    .section-title img
-    {
-        height: 120px;
     }
     .modal-dialog-centered
     {
@@ -151,15 +181,15 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 30% !important;
+         top: 32% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 37% !important;
+         top: 39% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
-         top: 39% !important;
+         top: 45% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
@@ -260,7 +290,7 @@
 
     .herounit-bg .tabbased-search-3 .tab-content-3 .hotels-form-3 div { padding: 0px;}
     .thailand-trip .col-md-6, .thailand-trip .col-sm-6 { left: 0px;}
-    .section-title-3 {padding-left: 0;}
+    .section-title-3 {padding-left: 0;padding-top: 20px;}
     .thailand-trip .thailand-description { padding-left: 0;}
     .subscribe-area .subscribe-form .serach-form input {background-image:  none; padding-right: 80px;}
 
@@ -316,7 +346,7 @@
     }
     .khw::before
     {
-        height: 60%;
+        height: 59%;
     }
     .kps::before
     {
@@ -392,20 +422,28 @@
         padding: 120px 0 0 0;
         height: 850px;
     }
-    .footer-title img
+    .footer-title .logo1
     {
-        padding: 0 110px;
+        padding: 0 25%;
+    }
+    .footer-title .logo2
+    {
+        display: none;
     }
 }
 @media screen and (min-width: 991px)
 {
-    .footer-title img
+    .footer-title .logo1
     {
-        padding: 0 60px;
+        display: none;
+    }
+    .footer-title .logo2
+    {
+        padding: 0 500px;
     }
     .footer-area .single-footer .foot
     {
-        padding-top: 60px;
+        padding-top: 15px;
     }
     .tp-bannertimer
     {
@@ -423,7 +461,6 @@
     }
     .testimonial-area-5 .single-testimonial .testimonial-messages p
     {
-        margin: 0 30px 0 auto;
         text-align: left;
     }
     .testimonial-area-5 .single-testimonial .container .author-bio
@@ -438,66 +475,66 @@
     }
     .initiatives .timeline .timeline-content .timeline-icon
     {
-        left: 27px;
+        left: auto;
         display: block;
     }
     .initiatives .timeline .timeline-content h4
     {
-        padding-top: 120px;
+        display: none;
     }
     .ih::before
     {
         width: 90%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .khw::before
     {
         width: 50%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .kps::before
     {
         width: 35%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .ken::before
     {
         width: 0%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .edify::before
     {
         width: 20%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .kcs::before
     {
         width: 20%;
         height: 2px;
         left: 50px;
-        top: 50px;
+        top: 25px;
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 45% !important;
+         top: 40% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 55% !important;
+         top: 52% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
-         top: 65% !important;
+         top: 64% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
@@ -508,28 +545,56 @@
         background-position: bottom 170px right 0;
         background-repeat: no-repeat;
     }
+    .about-us-area1 .container:first-child .section-title
+    {
+        width: 75%;
+    }
     .about-us-area1 .container:nth-child(2) .single-package-details
     {        
         background-size: 25%;
-        background-image: url(../images/line-images/telescope.svg);
+        background-image: url(../images/line-images/telescope.png);
         background-repeat: no-repeat;
-        background-position: 100% bottom;
+        background-position: center right;
     }
     .about-us-area1 .container:nth-child(2) .single-package-details .section-title
     {
-        width: 70%;
+        width: 75%;
         padding: 25px;
     }
     .about-us-area2 .container:nth-child(1) .single-package-details .section-title
     {
         width: 75%;
-        float: right;
     }
     .about-us-area2 .container:nth-child(1)
     {        
         background-size: 20%;
-        background-image: url(../images/line-images/paperplane.svg);
+        background-image: url(../images/line-images/paperplane.png);
         background-repeat: no-repeat;
-        background-position: top 70% left;
+        background-position: top 70% right 5%;
+    }
+    .thailand-trip .starting:before
+    {
+        height: 130px;
+    }
+    .about-us-area2 .section-title p
+    {
+        width: 95%;
+    }
+    .slider-area-2 b
+    {
+        font-weight: 700 !important;
+        font-size: 25px !important;
+    }
+    .slider-area-2 .slider-text
+    {
+        font-size: 20px !important;
+    }
+    .top-destination-area .section-title
+    {
+        width: 80%;
+    }
+    .about-us-area3 .section-title p
+    {
+        width: 70%;
     }
 }

@@ -228,7 +228,7 @@
      transition: all 0.3s ease-in-out;
 }
 .header-bottom-area .main-menu  li:hover  a {
-     color: #034ea2;
+     color: #ed1c24;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
@@ -540,7 +540,7 @@ form p
 }
 header .header-bottom-area .main-menu li:last-child
 {
-     background: #034ea2 !important;
+     background: #ed1c24 !important;
      padding: 10px;
      margin: 5px;
 }
@@ -627,7 +627,7 @@ header .main-menu a:focus
 }
 .to-top a:hover
 {
-     background: #034ea2;
+     background: #ed1c24;
 }
 i
 {
@@ -639,11 +639,13 @@ i
      /* Chrome, Firefox, Opera, Safari 10.1+ */
      font-family: 'Source Sans Pro', sans-serif;
      opacity: 1; /* Firefox */
+     height: 30px;
 }
 .footer-contact-form .form-group
 {
      margin-bottom: 5px;
      padding: 0;
+     display: grid;
 }
 .tagline i
 {
@@ -764,9 +766,10 @@ button
      border-radius: 10px;
      filter: grayscale(1);
 }
-.testimonial-area-5 .single-testimonial .testimonial-messages i
+.testimonial-area-5 .single-testimonial .testimonial-messages span
 {
      font-size: 20px;
+     font-family: 'Ubuntu', sans-serif;
 }
 .resort-box h3, .resort-box h4
 {
@@ -789,6 +792,10 @@ button
 .single-travel:hover a, .single-travel:hover .kkavion-ico i, .single-travel:hover .travel-content p
 {
      color: white;
+}
+.single-travel:hover .travel-content:before
+{
+     background-color: white;
 }
 .col-md-12 .subscribe-title a
 {
@@ -862,11 +869,14 @@ button
      border-radius: 100%;
      transition: all ease-in-out 0.5s;
 }
-.kkavion-ico i
+.kkavion-ico img
 {
-     font-size: 40px;
-     color: #034ea2;
+     width: 90px;
      transition: all ease-in-out 0.5s;
+}
+.single-travel:hover .kkavion-ico img
+{
+     filter: invert(1);
 }
 .career-content p, .career-content li
 {
@@ -936,22 +946,30 @@ button
 {
      font-family: 'Ubuntu',sans-serif;
 }
-.section-title h2:before
+.section-title h2:before, .section-title-3 h2:before
 {
-     background: #034ea2 none repeat scroll 0 0;
-     top: 50px;
+     background: #ed1c24 none repeat scroll 0 0;
      content: "";
      height: 2px;
      position: absolute;
      right: 0;
      text-align: left;
      width: 50px;
-     left: 15px;
+     left: 0;
      transition: 1s ease-in-out; 
 }
-.section-title:hover h2:before
+.section-title h2:before
 {
-     width: 150px;
+     top: 45px;
+}
+.section-title-3 h2:before
+{
+     bottom: 15px;
+     left: 0;
+}
+.section-title:hover h2:before, .section-title-3:hover h2:before
+{
+     width: 100%;
 }
 .about-us-area1
 {
@@ -962,3 +980,67 @@ button
      background-color: skyblue;
      border-radius: 10px;
 }
+.about-us-area2
+{
+     padding-bottom: 0;
+}
+.initiatives
+{
+     padding-bottom: 60px;
+     padding-top: 15px;
+}
+.slider-area-2, .tagline
+{
+     font-family: 'Ubuntu', sans-serif;
+}
+.tagline span
+{
+     font-weight: 700;
+}
+.foot span
+{
+     font-size: 18px;
+}
+.quicklinks li:not(:first-child) a
+{
+     cursor: default;
+     color: #666 !important;
+}
+.quicklinks li:not(:first-child) a:hover
+{
+     color: #ccc;
+}
+.footer-contact a
+{
+     font-size: 15px;
+}
+.form-group .btn-primary
+{
+     background-color: #034ea2;
+     border-color: #ffffff00;
+     color: white;
+     transition: all 0.3s ease-in-out;
+}
+.form-group .btn-primary:hover
+{
+     background-color: #ed1c24;
+}
+.about-us-area1 .section-title p, .about-us-area2 .section-title p, .about-us-area3 .section-title p
+{
+     font-family: 'Ubuntu', sans-serif;
+}
+.about-us p
+{
+     width: 100% !important;
+}
+ 
+ .custom-shape-divider-top-1675771300 svg {
+     position: absolute;
+     display: inline-block;
+     width: calc(163% + 1.3px);
+     height: 60%;
+ }
+ 
+ .custom-shape-divider-top-1675771300 .shape-fill {
+     fill: #ed1c24;
+ }
