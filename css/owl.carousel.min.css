@@ -128,7 +128,7 @@
  }
 }
 .owl-height {
- transition:height .5s ease-in-out
+ transition:height .10s ease-in-out
 }
 .owl-carousel .owl-item .owl-lazy {
  opacity:0;
