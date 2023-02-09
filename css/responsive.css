@@ -1,6 +1,31 @@
 /*      Tablet Layout: 768px.    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .title-line-4 h2 
+    {
+        font-size:35px!important;
+        margin-top:-20px!important;
+        padding-left:15px!important
+    }
+   .title-line-42 h3 
+    {
+        font-size:14px!important;
+        margin-top:-10px!important;
+        padding-left:15px!important
+    }
+    .header-p24,
+    .header-p244,
+    .header-p4,
+    .header-p44 {
+        line-height:14px!important;
+        border-width:0;
+        letter-spacing:0;
+        font-weight:400;
+        width:300px!important;
+        white-space:normal!important;
+        padding-left:15px!important
+    }
     .thailand-trip .starting:before
     {
         height: 230px;
@@ -181,19 +206,19 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 32% !important;
+         top: 37% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 39% !important;
+         top: 45% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
-         top: 45% !important;
+         top: 50% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 39% !important;
+         top: 45% !important;
     }
 
 
@@ -412,6 +437,22 @@
          opacity: 1;
          visibility: visible;
          bottom: 0px;
+    }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 30% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 42% !important;
+    }
+    .tp-parallax-wrap:nth-child(5)
+    {
+         top: 65% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 70% !important;
     }
 }
 

@@ -693,16 +693,16 @@ button
 }
 .career-menu .career-top-area
 {
-     background: #bcbec0;
+     background: lightgray;
      padding: 25px 50px 25px 25px;
      border-radius: 10px 10px 0 0;
-     color: rgb(3,78,162);
+     color: #ed1c24;
      transition: all 0.3s ease-in-out;
      text-align: left;
 }
 .career-menu .col-md-4:hover .career-top-area
 {
-     background: rgb(3,78,162);
+     background: #ed1c24;
      color: white
 }
 .career-menu .career-bottom-area
@@ -718,7 +718,7 @@ button
 {
      text-align: center;
      border: 1px solid lightgray;
-     background: #034ea2;
+     background: #ed1c24;
      border-radius: 5px;
      color: white;
      width: 80px;
@@ -1043,4 +1043,8 @@ button
  
  .custom-shape-divider-top-1675771300 .shape-fill {
      fill: #ed1c24;
+ }
+ .in-the-making .section-title h2::before
+ {
+     background: white;
  }
