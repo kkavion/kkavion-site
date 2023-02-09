@@ -592,10 +592,10 @@
     }
     .about-us-area1 .container:nth-child(2) .single-package-details
     {        
-        background-size: 25%;
+        background-size: 20%;
         background-image: url(../images/line-images/telescope.png);
         background-repeat: no-repeat;
-        background-position: center right;
+        background-position: bottom right;
     }
     .about-us-area1 .container:nth-child(2) .single-package-details .section-title
     {
@@ -608,10 +608,10 @@
     }
     .about-us-area2 .container:nth-child(1)
     {        
-        background-size: 20%;
+        background-size: 18%;
         background-image: url(../images/line-images/paperplane.png);
         background-repeat: no-repeat;
-        background-position: top 70% right 5%;
+        background-position: bottom 10% right 3%;
     }
     .thailand-trip .starting:before
     {
