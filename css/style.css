@@ -192,7 +192,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: none;
 }
  .section-paddings {
-     padding: 50px 0;    padding-top:25px;
+     padding: 50px 0;    
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -705,7 +705,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #454545;
      position: relative;
      z-index: 2;
-     line-height: 25px;
      padding-top: 10px;
      text-align: left;
      font-size: 18px;
@@ -741,7 +740,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #353535;
      font-size: 30px;
      font-weight: 500;
-     padding-bottom: 20px;
      position: relative;
      text-transform: capitalize;
      z-index: 2;
@@ -3256,7 +3254,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .partner-slider-2 .single-partner-slider-2 {
      padding: 0 0;
      text-align: center;
-     margin: 10px;
+     margin: 35px;
      border-radius: 5px;
 }
  .partner-slider-2 .single-partner-slider-2 h3 {
@@ -3266,8 +3264,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .partner-slider-2 .slick-slide img {
      display: inline-block;
-     padding: 25px;
-     border-radius: 50%;
 }
 /*===================================================== 44.Home version 4 footer section start here =======================================================*/
  .footer-area-2 .single-footer p {

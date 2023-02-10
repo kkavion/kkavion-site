@@ -152,9 +152,21 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .rev_slider img
+    {
+        top: 20px;
+    }
+    .single-bredcurms
+    {
+        height: 300px;
+    }
+    .single-bredcurms .bredcrums-content
+    {
+        padding-top: 100px;
+    }
     .ourteam-area
     {
-        background-size: 200% 25% !important;
+        background-size: 250% 30% !important;
     }
     .section-paddings
     {
@@ -168,7 +180,7 @@
     .slider-area-2 b
     {
         font-weight: 700 !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .slider-area-2 .slider-text
     {
@@ -206,19 +218,20 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 37% !important;
+         top: 48% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 45% !important;
+         top: 55% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
          top: 50% !important;
+         display: none !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 45% !important;
+         top: 35% !important;
     }
 
 
@@ -472,6 +485,8 @@
         display: none;
     }
 }
+
+/*Desktop layout: 991px< */
 @media screen and (min-width: 991px)
 {
     .footer-title .logo1
@@ -503,6 +518,8 @@
     .testimonial-area-5 .single-testimonial .testimonial-messages p
     {
         text-align: left;
+        top: 25px;
+        position: relative;
     }
     .testimonial-area-5 .single-testimonial .container .author-bio
     {
@@ -575,11 +592,11 @@
     }
     .tp-parallax-wrap:nth-child(5)
     {
-         top: 64% !important;
+         top: 68% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 70% !important;
+         top: 73% !important;
     }
     .about-us-area1
     {
@@ -624,7 +641,7 @@
     .slider-area-2 b
     {
         font-weight: 700 !important;
-        font-size: 25px !important;
+        font-size: 24px !important;
     }
     .slider-area-2 .slider-text
     {
@@ -637,5 +654,31 @@
     .about-us-area3 .section-title p
     {
         width: 70%;
+    }
+    .ourteam-area .section-title p
+    {
+        width: 82%;
+        float: right;
+        text-align: left;
+        border-left: 1px solid lightgray;
+        padding-left: 20px;
+        padding-right: 100px
+    }
+    .ourteam-area .section-title h2
+    {
+        top: 20px;
+    }
+    .in-the-making .section-title p
+    {
+        width: 75%;
+        float: right;
+        text-align: left;
+        border-left: 1px solid lightgray;
+        padding-left: 20px;
+        padding-right: 100px;
+    }
+    .in-the-making .section-title h2
+    {
+        top: 10px;
     }
 }
