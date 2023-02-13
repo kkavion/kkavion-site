@@ -776,6 +776,7 @@ button
 {
      font-size: 20px;
      font-family: 'Ubuntu', sans-serif;
+     color: #034ea2;
 }
 .resort-box h3, .resort-box h4
 {
@@ -886,7 +887,7 @@ button
 }
 .career-content p, .career-content li
 {
-     color: gray;
+     color: #454545;
      font-family: 'Source Sans Pro', sans-serif;
      font-size: 16px;
 }
@@ -898,6 +899,7 @@ button
 .career-content h6
 {
      font-family: 'Ubuntu', sans-serif;
+     color: #323232;
 }
 .career-content i
 {
@@ -1052,10 +1054,13 @@ button
  }
 .career-content h1
 {
-     margin: auto;
      display: table;
 }
 .about-us-area3 .section-title
 {
      margin-bottom: 0;
+}
+.career-sec :is(h1,h2,h3,h4,h5,h6)
+{
+     font-weight: 500;
 }
