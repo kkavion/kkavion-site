@@ -3207,10 +3207,10 @@ fieldset[disabled] .btn-default:hover {
  background-color:#333
 }
 .btn-primary {
- color:black;
- background-color:#ccc;
- border-color:#888;
+ color:white;
+ background-color:#ed1c24;
   font-family: 'Source Sans Pro', sand-serif;
+ transition: all 0.3s ease-in-out;
 }
 .btn-primary.focus,
 .btn-primary:focus {
@@ -3220,8 +3220,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary:hover {
  color:#fff;
- background-color:#ed1c24;
- border-color:#ff8f00;
+ background-color:#034ea2;
  transition: all linear 0.3s;
 }
 .btn-primary.active,
