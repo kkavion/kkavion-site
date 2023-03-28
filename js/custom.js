@@ -410,3 +410,17 @@
     });
 
 })(jQuery);
+
+
+function closeSearch()
+{
+    document.getElementById("career1").classList.remove('active');
+    document.getElementById("career2").classList.remove('active');
+    document.getElementById("career3").classList.remove('active');
+    document.getElementById("career4").classList.remove('active');
+    document.getElementById("career5").classList.remove('active');
+    document.getElementById("career6").classList.remove('active');
+    document.getElementById("career7").classList.remove('active');
+    document.getElementById("career8").classList.remove('active');
+    document.getElementById("career9").classList.remove('active');
+}

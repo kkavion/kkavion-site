@@ -1064,3 +1064,17 @@ button
 {
      font-weight: 500;
 }
+.closebtn 
+{
+     position: absolute;
+     top: 0%;
+     right: 5%;
+     font-size: 2em;
+     cursor: pointer;
+     color: gray;
+     transition: 0.3s ease-in-out
+}
+.closebtn:hover
+{
+     color: black;
+}
