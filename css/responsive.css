@@ -28,7 +28,7 @@
     }
     .thailand-trip .starting:before
     {
-        height: 230px;
+        height: 370px;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
@@ -56,6 +56,48 @@
     {
          top: calc(100% - (30rem * 2));
          align-items: center;
+    }
+    .ih::before
+    {
+        height: 100%;
+        left: 2.5%;
+    }
+    .khw::before
+    {
+        height: 59%;
+        left: 2.5%;
+    }
+    .kps::before
+    {
+        height: 40%;
+        left: 2.5%;
+    }
+    .ken::before
+    {
+        height: 0%;
+        left: 2.5%;
+    }
+    .edify::before
+    {
+        height: 20%;
+        left: 2.5%;
+    }
+    .kcs::before
+    {
+        height: 20%;
+        left: 2.5%;
+    }    
+    .footer-title .logo1
+    {
+        padding: 0 40%;
+    }
+    .footer-title .logo2
+    {
+        display: none;
+    }
+    .testimonial-area-5 .single-testimonial
+    {
+        display: flex;
     }
 
 
@@ -441,9 +483,13 @@
     {
         margin: 10px;
     }
-    .footer-title img
+    .footer-title .logo1
     {
-        padding: 0 200px;
+        padding: 0 35%;
+    }
+    .footer-title .logo2
+    {
+        display: none;
     }
     .career-menu .col-md-4:hover .career-bottom-area-hidden-btn
     {
@@ -478,7 +524,7 @@
     }
     .footer-title .logo1
     {
-        padding: 0 25%;
+        padding: 0 30%;
     }
     .footer-title .logo2
     {
@@ -623,7 +669,7 @@
     }
     .thailand-trip .starting:before
     {
-        height: 130px;
+        height: 140px;
     }
     .about-us-area2 .section-title p
     {
