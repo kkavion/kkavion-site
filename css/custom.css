@@ -770,7 +770,6 @@ button
      width: auto;
      height: 250px;
      border-radius: 10px;
-     filter: grayscale(1);
 }
 .testimonial-area-5 .single-testimonial .testimonial-messages span
 {
