@@ -999,11 +999,11 @@ button
 .slider-area-2, .tagline
 {
      font-family: 'Ubuntu', sans-serif;
-     font-style: italic;
 }
 .tagline span
 {
      font-weight: 700;
+     font-style: italic;
 }
 .foot span
 {
