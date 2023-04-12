@@ -1307,6 +1307,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: white;
      padding: 10px 0;
 }
+ .footer-area .single-footer .footer-title h4
+{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
  .footer-area .single-footer .footer-left .footer-logo p {
      color: #ffffff;
      font-size: 15px;

@@ -1,3 +1,8 @@
+@font-face {
+     font-family: 'SameMistake';
+     src: url('../fonts/same-mistake.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 .d-flex
 {
     display:flex;
@@ -1004,10 +1009,13 @@ button
 {
      font-weight: 700;
      font-style: italic;
+     font-family: 'SameMistake';
+     font-size: 30px;
 }
 .foot span
 {
      font-size: 18px;
+     font-family: 'Merriweather';
 }
 .quicklinks li:not(:first-child) a
 {
@@ -1020,7 +1028,7 @@ button
 }
 .footer-contact a
 {
-     font-size: 15px;
+     font-size: 13px;
 }
 .form-group .btn-primary
 {
