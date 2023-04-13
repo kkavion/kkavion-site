@@ -1007,8 +1007,6 @@ button
 }
 .tagline span
 {
-     font-weight: 700;
-     font-style: italic;
      font-family: 'SameMistake';
      font-size: 30px;
 }
@@ -1016,6 +1014,7 @@ button
 {
      font-size: 18px;
      font-family: 'Merriweather';
+     font-style: italic;
 }
 .quicklinks li:not(:first-child) a
 {

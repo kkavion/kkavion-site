@@ -166,7 +166,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      clear: both;
 }
  body {
-     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'Open Sans', sans-serif;
      color: black;
      font-size: 16px;
      font-weight: 400;
@@ -1310,7 +1310,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-title h4
 {
     font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
  .footer-area .single-footer .footer-left .footer-logo p {
      color: #ffffff;
@@ -3489,7 +3490,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .single-testimonial .testimonial-messages {
      padding: 30px 0;
-     padding-top: 0;
+     padding-top: 15px;
 }
  .testimonial-area-5 .single-testimonial .testimonial-messages p {
      max-width: 764px;
