@@ -719,6 +719,10 @@ button
      margin-bottom: 15px;
      text-align: left;
 }
+.career-menu .career-bottom-area p
+{
+     font-size: 18px;
+}
 .career-menu .career-bottom-area .career-button
 {
      text-align: center;

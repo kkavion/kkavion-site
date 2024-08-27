@@ -136,10 +136,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  p {
      margin: 0 0 15px;
-     font-size: 16px;
+     font-size: 20px;
      color: #454545;
      font-weight: 400;
      font-family: 'Source Sans Pro', sans-serif;
+     line-height: 1.5;
 }
  h1, h2, h3, h4, h5, h6 {
      margin: 0 0 0;
@@ -707,10 +708,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 2;
      text-align: left;
      font-size: 18px;
+     line-height: 1.5;
 }
 .section-title p:nth-child(3),.section-title  p:nth-child(4),.section-title p:nth-child(5)
 {
-    line-height: 25px;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
  .section-title-white h2, .section-title-white-2 h2 {
