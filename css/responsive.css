@@ -595,21 +595,21 @@
     }
     .khw::before
     {
-        width: 50%;
+        width: 85%;
         height: 2px;
         left: 50px;
         top: 25px;
     }
     .kps::before
     {
-        width: 35%;
+        width: 60%;
         height: 2px;
         left: 50px;
         top: 25px;
     }
     .ken::before
     {
-        width: 0%;
+        width: 10%;
         height: 2px;
         left: 50px;
         top: 25px;
@@ -638,7 +638,7 @@
     }
     .tp-parallax-wrap:nth-child(5)
     {
-         top: 68% !important;
+         top: 67% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
@@ -677,7 +677,7 @@
     }
     .slider-area-2 b
     {
-        font-weight: 700 !important;
+        font-weight: 500 !important;
         font-size: 24px !important;
     }
     .slider-area-2 .slider-text

@@ -288,7 +288,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: #2c3035;
 }
  .header-top-right .book-btn {
-     display: inline-block;
      padding: 16px;
      float: right;
      background: #034ea2;
@@ -318,7 +317,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      display: block;
      color: #404040;
      font-size: 17px;
-     text-transform: ;
      text-decoration: none;
      font-weight: 500;
      position: relative;
@@ -1296,7 +1294,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 14.Footer area section css goes here =======================================================*/
  .footer-area {
-     background: #202124 url("") no-repeat scroll 99% center/cover;
+     background: #04274e url("") no-repeat scroll 99% center/cover;
      padding-bottom: 10px;
 }
  .footer-area .single-footer {
@@ -1310,9 +1308,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .footer-area .single-footer .footer-title h4
 {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
 }
  .footer-area .single-footer .footer-left .footer-logo p {
      color: #ffffff;
@@ -1439,9 +1437,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
     /* Firefox 18- */
      color: #c3c3c3;
 }
- .footer-area .single-footer .footer-contact-form form .footer-form-element li input:hover {
-     background: #;
-}
  .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea {
      background: #dfdfdf none repeat scroll 0 0;
      border: medium none;
@@ -1473,9 +1468,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea :-moz-placeholder {
     /* Firefox 18- */
      color: #ffffff;
-}
- .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea:hover {
-     background: #;
 }
  .footer-area .single-footer .footer-contact-form form .footer-form-element button {
      background: #034ea2 none repeat scroll 0 0;
@@ -2530,9 +2522,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-left: 0;
 }
 /*===================================================== 29.why choose travelser section css goes here =======================================================*/
- .choose-trabble-version-2 {
-     background: ;
-}
+
  .choose-trabble-version-2 .single-travel {
      margin-bottom: 30px;
      padding: 5px 0px;
@@ -2923,7 +2913,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .thailand-trip .starting:before {
      background: #ffffff none repeat scroll 0 0;
      content: "";
-     height: ;
      position: absolute;
      bottom: 100%;
      width: 1px;
@@ -3077,7 +3066,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 100%;
      height: 100%;
      content: '';
-     : transparent linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
+     background: transparent linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
      background: transparent -moz-linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0) 100%) repeat scroll 0 0;
      background: transparent -webkit-linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
      left: 0;
@@ -4424,7 +4413,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 .header-bottom-area .logo-area {
     padding: 7px 35px 7px 0;
-    : 115%;
+    width: 115%;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
