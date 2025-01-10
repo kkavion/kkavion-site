@@ -698,17 +698,12 @@ button
 }
 .career-menu .career-top-area
 {
-     background: lightgray;
+     background: #034ea2;
      padding: 25px 50px 25px 25px;
      border-radius: 10px 10px 0 0;
-     color: #ed1c24;
+     color: white;
      transition: all 0.3s ease-in-out;
      text-align: left;
-}
-.career-menu .col-md-4:hover .career-top-area
-{
-     background: #ed1c24;
-     color: white
 }
 .career-menu .career-bottom-area
 {
@@ -726,7 +721,7 @@ button
 .career-menu .career-bottom-area .career-button
 {
      text-align: center;
-     background: #ed1c24;
+     background: #034ea2;
      border-radius: 5px;
      color: white;
      width: 100px;
@@ -737,7 +732,7 @@ button
 }
 .career-menu .career-bottom-area .career-button:hover
 {
-     background: #034ea2;
+     background: #ed1c24;
 }
 .career-content
 {
