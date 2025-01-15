@@ -198,7 +198,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
  .travel-primary-btn, .travel-primary-btn-sm, .read-more, .quick-shop, .thailan-btn, .travel-primary-btn-2 {
-     background: #ed1c24;
+     background: #034ea2;
      display: inline-block;
      padding: 5px 10px !important;
      border-radius: 3px;
@@ -209,7 +209,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-decoration: none;
 }
  .thailan-btn {
-     padding: 10px 35px !important;
+     padding: 6px 12px !important;
 }
  .travel-primary-btn-sm {
      padding: 10px 15px !important;
