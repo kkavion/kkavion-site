@@ -1081,7 +1081,7 @@ html {
 body {
  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
  font-size:14px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#333;
  background-color:#fff
 }
@@ -1129,7 +1129,7 @@ img {
  max-width:100%;
  height:auto;
  padding:4px;
- line-height:1.42857143;
+ line-height:1.7;
  background-color:#fff;
  border:1px solid #ddd;
  border-radius:4px;
@@ -1442,7 +1442,7 @@ dl {
 }
 dd,
 dt {
- line-height:1.42857143
+ line-height:1.7
 }
 dt {
  font-weight:700
@@ -1489,7 +1489,7 @@ blockquote footer,
 blockquote small {
  display:block;
  font-size:80%;
- line-height:1.42857143;
+ line-height:1.7;
  color:#777
 }
 blockquote .small:before,
@@ -1524,7 +1524,7 @@ blockquote.pull-right small:after {
 address {
  margin-bottom:20px;
  font-style:normal;
- line-height:1.42857143
+ line-height:1.7
 }
 code,
 kbd,
@@ -1560,7 +1560,7 @@ pre {
  padding:9.5px;
  margin:0 0 10px;
  font-size:13px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#333;
  word-break:break-all;
  word-wrap:break-word;
@@ -2362,7 +2362,7 @@ th {
 .table>thead>tr>td,
 .table>thead>tr>th {
  padding:8px;
- line-height:1.42857143;
+ line-height:1.7;
  vertical-align:top;
  border-top:1px solid #ddd
 }
@@ -2633,7 +2633,7 @@ output {
  display:block;
  padding-top:7px;
  font-size:14px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#555
 }
 .form-control {
@@ -2642,7 +2642,7 @@ output {
  height:34px;
  padding:6px 12px;
  font-size:14px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#555;
  background-color:#fff;
  background-image:none;
@@ -3099,7 +3099,7 @@ textarea.input-lg {
  margin-bottom:0;
  font-size:14px;
  font-weight:400;
- line-height:1.42857143;
+ line-height:1.7;
  text-align:center;
  white-space:nowrap;
  vertical-align:middle;
@@ -3648,7 +3648,7 @@ tbody.collapse.in {
  padding:3px 20px;
  clear:both;
  font-weight:400;
- line-height:1.42857143;
+ line-height:1.7;
  color:#333;
  white-space:nowrap
 }
@@ -3697,7 +3697,7 @@ tbody.collapse.in {
  display:block;
  padding:3px 20px;
  font-size:12px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#777;
  white-space:nowrap
 }
@@ -4118,7 +4118,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .nav-tabs>li>a {
  margin-right:2px;
- line-height:1.42857143;
+ line-height:1.7;
  border:1px solid transparent;
  border-radius:4px 4px 0 0
 }
@@ -4817,7 +4817,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
  float:left;
  padding:6px 12px;
  margin-left:-1px;
- line-height:1.42857143;
+ line-height:1.7;
  color:#337ab7;
  text-decoration:none;
  background-color:#fff;
@@ -5096,7 +5096,7 @@ a.badge:hover {
  display:block;
  padding:4px;
  margin-bottom:20px;
- line-height:1.42857143;
+ line-height:1.7;
  background-color:#fff;
  border:1px solid #ddd;
  border-radius:4px;
@@ -6034,7 +6034,7 @@ button.close {
 }
 .modal-title {
  margin:0;
- line-height:1.42857143
+ line-height:1.7
 }
 .modal-body {
  position:relative;
@@ -6088,7 +6088,7 @@ button.close {
  font-size:12px;
  font-style:normal;
  font-weight:400;
- line-height:1.42857143;
+ line-height:1.7;
  text-align:left;
  text-align:start;
  text-decoration:none;
@@ -6206,7 +6206,7 @@ button.close {
  font-size:14px;
  font-style:normal;
  font-weight:400;
- line-height:1.42857143;
+ line-height:1.7;
  text-align:left;
  text-align:start;
  text-decoration:none;

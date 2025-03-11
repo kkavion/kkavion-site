@@ -55,7 +55,7 @@
      background-image: url("../images/line.png");
      background-position: left 54px bottom;
      background-repeat: no-repeat;
-     color: #454545;
+     color: #232323;
      font-size: 20px;
      font-weight: 500;
      padding-bottom: 20px;
@@ -65,7 +65,7 @@
 }
 .section-title-3 h3:before, .section-title-3 h3:after
 {
-     background: #454545 none repeat scroll 0 0;
+     background: #232323 none repeat scroll 0 0;
      bottom: 4.8px;
      content: "";
      height: 1px;
@@ -360,7 +360,7 @@
      background-color: transparent;
      background-image: url("../images/line4.png");
      background-repeat: no-repeat;
-     color: #454545;
+     color: #232323;
      font-size: 30px;
      font-weight: 500;
      padding-bottom: 20px;
@@ -370,7 +370,7 @@
 }
 .section-title2 h2:before, .section-title2 h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after 
 {
-     background: #454545 none repeat scroll 0 0;
+     background: #232323 none repeat scroll 0 0;
      bottom: 3.8px;
      content: "";
      height: 1px;
@@ -532,14 +532,14 @@
 {
      margin: 20px 0px;
      font-weight: 600;
-     color: #454545;
+     color: #232323;
      font-size: 15px;
 }
 form p
 {
      margin: 20px 15px 0px 15px;
      font-weight: 900;
-     color: #454545;
+     color: #232323;
      font-size: 20px;
      font: "Source Sans Pro", sans-serif;
 }
@@ -590,7 +590,7 @@ header .main-menu a:focus
 {
      font-family: 'Source Sans Pro', sans-serif;
      font-size: 15px;
-     color: #454545;
+     color: #232323;
 }
 .hotet-book-btn .travel-primary-btn
 {
@@ -718,7 +718,7 @@ button
 {
      font-size: 18px;
 }
-.career-menu .career-bottom-area .career-button
+.career-menu .career-bottom-area .career-button 
 {
      text-align: center;
      background: #034ea2;
@@ -730,7 +730,7 @@ button
      margin: 0px 0 -2px 0;
      transition: all 0.3s ease-in-out;
 }
-.career-menu .career-bottom-area .career-button:hover
+.career-menu .career-bottom-area .career-button:hover .travel-primary-btn
 {
      background: #ed1c24;
 }
@@ -890,9 +890,9 @@ button
 }
 .career-content p, .career-content li
 {
-     color: #454545;
+     color: #232323;
      font-family: 'Source Sans Pro', sans-serif;
-     font-size: 16px;
+     font-size: 18px;
 }
 .career-content h1,
 .career-content h2,
