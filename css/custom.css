@@ -730,7 +730,7 @@ button
      margin: 0px 0 -2px 0;
      transition: all 0.3s ease-in-out;
 }
-.career-menu .career-bottom-area .career-button:hover .travel-primary-btn
+.career-menu .career-bottom-area .career-button:hover
 {
      background: #ed1c24;
 }

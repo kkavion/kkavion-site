@@ -1359,7 +1359,7 @@
 .hvr-fade:active,
 .hvr-fade:focus,
 .hvr-fade:hover {
-    background-color: #034ea2;
+    background-color: #ed1c24;
 }
 
 @-webkit-keyframes hvr-back-pulse {
