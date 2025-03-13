@@ -183,17 +183,23 @@
 .single .blog-comments .single-comments .head { width: 20%;}
 .single .blog-comments .single-comments .body {width: 80%;}
 .single .blog-comments .single-comments h4 {text-align: center;}
+    
+    .header-bottom-area
+    {
+        display: none !important;
+    }
 
 
-.header-bottom-area
-{
-    display: none !important;
-}
+
 }
 
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .header-bottom-area
+    {
+        display: none !important;
+    }
     .rev_slider img
     {
         top: 20px;
@@ -240,7 +246,7 @@
     .single-item:last-child{margin-bottom: 0px;}
     .mean-bar img
     {
-        max-height: 45px;
+        max-height: 40px;
         padding-left: 11px;
     }
     .modal-dialog-centered

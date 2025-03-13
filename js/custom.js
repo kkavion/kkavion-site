@@ -222,7 +222,7 @@
 		nav:true,
 		dots:true,
 		autoplay:true,
-		autoplayTimeout:12000,
+		autoplayTimeout:18000,
 		responsive:{
 			0:{
 				items:1
